@@ -1,0 +1,5 @@
+[ 2026-10-11 12:23:18,466 ] 21 root - INFO - Initiating data ingestion
+[ 2026-10-11 12:23:24,967 ] 59 root - INFO - Loaded 11055 records from MongoDB.
+[ 2026-10-11 12:23:25,079 ] 84 root - INFO - Data exported to feature store.
+[ 2026-10-11 12:23:25,127 ] 127 root - INFO - Train records: 8844, test records: 2211
+[ 2026-10-11 12:23:25,128 ] 25 root - INFO - Data ingestion completed
