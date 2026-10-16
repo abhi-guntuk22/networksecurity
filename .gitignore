@@ -1,2 +1,32 @@
-venv
+$gitignore = @'
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
 .env
+.env.*
+!.env.example
+
+# Generated files
+logs/
+Artifacts/
+mlruns/
+mlflow.db
+prediction_output/
+prediction_input.csv
+
+# IDE files
+.vscode/
+.idea/
+
+# Keep required model files
+!final_model/
+'@
+
+Set-Content -Path .gitignore -Value $gitignore
